@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lotus and Pagoda Bites - Where Thai Meets Burmese on Every Plate">
+    <title>Lotus & Pagoda Bites</title>
+    <link rel="stylesheet" href="Lotus&PagodaBites.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="your-logo.png" alt="Lotus & Pagoda Bites"> <!-- Replace with your logo file -->
+    </div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#order">Order Online</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h1>Welcome to Lotus and Pagoda Bites</h1>
+</section>
+
+<section class="content">
+    <h2>Welcome to Lotus and Pagoda Bites</h2>
+    <p>At Lotus and Pagoda Bites, we believe that great food can create meaningful change. Our mission extends beyond serving delicious Thai and Burmese cuisine; we are dedicated to making a difference in the lives of children in rural Myanmar and Thailand.</p>
+    <p>With every meal you enjoy, you help support our initiative to improve educational opportunities for underprivileged children in remote areas. A portion of our proceeds goes directly to funding school supplies, infrastructure improvements, and educational programs.</p>
+    <p>By dining with us, you’re not just savoring authentic flavors from across Southeast Asia—you’re contributing to a brighter future for children who deserve a chance to learn and grow. Join us in our commitment to bettering lives, one bite at a time.</p>
+    <p><strong>Taste the difference. Make a difference.</strong></p>
+</section>
+
+<section class="content" id="menu">
+    <h2>Menu</h2>
+
+    <h3>Thai Food</h3>
+    <div class="menu-item"><span>Pad Thai</span><span>80 THB</span></div>
+    <div class="menu-item"><span>Tom Yum Goong</span><span>150 THB</span></div>
+    <div class="menu-item"><span>Som Tum</span><span>65 THB</span></div>
+    <div class="menu-item"><span>Pad Kra Pao</span><span>65 THB</span></div>
+    <div class="menu-item"><span>Khao Soi</span><span>89 THB</span></div>
+
+    <h3>Burmese Food</h3>
+    <div class="menu-item"><span>Mohinga</span><span>70 THB</span></div>
+    <div class="menu-item"><span>Shan Noodles</span><span>65 THB</span></div>
+    <div class="menu-item"><span>Tea Leaf Salad</span><span>35 THB</span></div>
+    <div class="menu-item"><span>Burmese Coconut Noodles (Ohn No Khao Swel)</span><span>70 THB</span></div>
+    <div class="menu-item"><span>Nan Gyi Thoke</span><span>65 THB</span></div>
+
+    <h3>Drinks</h3>
+    <div class="menu-item"><span>Thai Tea</span><span>40 THB</span></div>
+    <div class="menu-item"><span>Green Tea</span><span>40 THB</span></div>
+    <div class="menu-item"><span>Thai Iced Coffee</span><span>45 THB</span></div>
+    <div class="menu-item"><span>Burmese Tea</span><span>40 THB</span></div>
+    <div class="menu-item"><span>Lemon Tea</span><span>45 THB</span></div>
+    <div class="menu-item"><span>Water</span><span>10 THB</span></div>
+
+    <h3>Desserts</h3>
+    <div class="menu-item"><span>Shwe Yin Aye</span><span>50 THB</span></div>
+    <div class="menu-item"><span>Mango Sticky Rice</span><span>70 THB</span></div>
+    <div class="menu-item"><span>Coconut Ice Cream</span><span>35 THB</span></div>
+    <div class="menu-item"><span>Thar Gu</span><span>30 THB</span></div>
+    <div class="menu-item"><span>Yup Tim Grob</span><span>45 THB</span></div>
+    <div class="menu-item"><span>Mont Latt Saung</span><span>40 THB</span></div>
+</section>
+
+<section class="online-order" id="order">
+    <h2>Order Online</h2>
+    <p>Place your order for pickup or delivery below:</p>
+    <form action="/submit-order" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone" required>
+
+        <label for="order">Select Your Order:</label>
+        <select id="order" name="order">
+            <option value="pad-thai">Pad Thai - 80 THB</option>
+            <option value="tom-yum-goong">Tom Yum Goong - 150 THB</option>
+            <!-- Add other menu items here -->
+        </select>
+
+        <label for="delivery">Delivery Address:</label>
+        <input type="text" id="delivery" name="delivery">
+
+        <button type="submit">Submit Order</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Lotus & Pagoda Bites. All rights reserved.</p>
+    <div id="ai-bot">
+        <!-- AI bot integration placeholder -->
+        <p>Chat with our AI bot for assistance!</p>
+    </div>
+</footer>
+
+</body>
+</html>

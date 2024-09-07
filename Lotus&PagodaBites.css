@@ -1,0 +1,91 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f0; /* Beige */
+    color: #333;
+}
+
+header {
+    background-color: #d32f2f; /* Crimson Red */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #f2a700; /* Soft Orangey Yellow */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 36px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.online-order {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.online-order form {
+    display: inline-block;
+    text-align: left;
+}
+
+.online-order input, .online-order select, .online-order button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #d32f2f; /* Crimson Red */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b71c1c; /* Darker Crimson Red */
+}
